@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ULL-ESIT-PL-1920/hello-js-action-alu0101049151@v2
+        uses: ULL-ESIT-PL-1920/hello-js-action-alu0101049151@v1
         id: hello
         with:
           who-to-greet: 'Basilio Gomez'
